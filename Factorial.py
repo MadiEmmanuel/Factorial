@@ -1,18 +1,23 @@
 
-    num = int(input("Enter number:)
-  
-    def Fact(num):
-        count = 0
-        result = 1
-      
-        while (count >= 0):
-            result = result * count
+    def fact(n):
+    f=1
+    for i in range(1, n+1):
+        if num  >= 1:
+            f=f*i
+
+        elif   num < 1:
+            print("Enter positive intergers only")
+
+        else:
+            print("Enter numeric numbers only")      
+        
+    return f    
            
-            count -= 1
-          
-        return print(result)
-    
-    Fact(num)
+num = int(input("Enter number:"))
+
+result = fact(num)
+       
+print(result)
     
     
    
