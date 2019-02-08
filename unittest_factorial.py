@@ -11,3 +11,6 @@ class test_zero_factorial(unittest.TestCase):
 
     def test_non_numeric(self):
         self.failIfAlmostEqual(num == str)
+if __name__ == '__main__':
+unittest.main()        
+        
